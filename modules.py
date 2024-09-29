@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 from langchain.chains import ConversationalRetrievalChain, RetrievalQA
 from langchain_openai import ChatOpenAI
 from langchain_community.document_loaders import DirectoryLoader, TextLoader

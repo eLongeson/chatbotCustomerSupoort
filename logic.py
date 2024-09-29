@@ -1,9 +1,9 @@
 import os
 import sys
 from modules import *
-import constants
 
-os.environ["OPENAI_API_KEY"] = constants.APIKEY
+load_dotenv()
+api_key = os.getenv("API_KEY")
 
 # Enable to save to disk & reuse the model (for repeated queries on the same data)
 PERSIST = False
