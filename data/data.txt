@@ -1,0 +1,34 @@
+Problem to Solve: Sukwo aims to address then lack of quality software in the financial industry.
+Product: A cloud-based software solution that that assist customer care agents.
+Target Market: medium and large businesses.
+Founding Team:
+Raphael Adewale
+Favour Adewale
+Olateju Oke
+Elijah Tsekar
+Ayodeji Adedeji
+Praise
+Timothy
+Development Approach:
+Start with a Minimum Viable Product (MVP) to test core functionality
+Use agile methodology for iterative development
+Leverage cloud platforms for scalability
+Initial Funding:
+Bootstrapped with $0 from founders
+Seeking $1000000 in seed funding
+Revenue Model:
+Monthly subscription tiers based on features/usage
+Freemium model to drive user acquisition
+Marketing Strategy:
+Content marketing (blog, social media)
+Targeted online advertising
+Partnerships with industry influencers
+Key Metrics to Track:
+Customer Acquisition Cost (CAC)
+Monthly Recurring Revenue (MRR)
+Churn Rate
+Customer Lifetime Value (CLV)
+Near-term Goals:
+Launch MVP within 6 months
+Acquire 100 paying customers in first year
+Reach $10000 Annual Recurring Revenue (ARR) by end of year 2
