@@ -21,7 +21,7 @@ async def api_process_chat(chat: Chat):
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to the Sukwo customer care center, how can I help you?"}
+    return {"message": "Welcome to the Sukwo customer care center!, how can I help you?"}
 
 if __name__ == "__main__":
     start_chat()
