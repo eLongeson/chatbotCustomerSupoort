@@ -10,8 +10,6 @@ COPY . .
 RUN mkdir -p /app/persist && chmod 777 /app/persist
 RUN mkdir -p /app/data && chmod 777 /app/data
 
-COPY .env .env
-
 FROM python:3.9-slim
 
 WORKDIR /app
