@@ -13,7 +13,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'd696bc1d-5bb6-4e04-a51b-4ab308008288'
-  imageRepository: 'elongesonchatbotcustomersupport'
+  imageRepository: 'chatbot-back'
   containerRegistry: 'cbfrontend.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
