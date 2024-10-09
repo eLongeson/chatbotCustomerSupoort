@@ -46,6 +46,5 @@ stages:
         scriptLocation: 'inlineScript'
         scriptPath: 
         inlineScript: |
-                  az acr login --name cbfrontend.azurecr.io
                   az webapp config container set --name chatbot-back --resource-group Sukwo-chatbot --container-image-name cbfrontend.azurecr.io/$(imageRepository):$(tag) --container-registry-url https://cbfrontend.azurecr.io
                   az webapp restart --name chatbot-back --resource-group Sukwo-chatbot
