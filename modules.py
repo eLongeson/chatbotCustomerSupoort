@@ -7,3 +7,4 @@ from langchain.indexes import VectorstoreIndexCreator
 from langchain.indexes.vectorstore import VectorStoreIndexWrapper
 from langchain_community.llms import OpenAI
 from langchain_chroma import Chroma
+import pyodbc

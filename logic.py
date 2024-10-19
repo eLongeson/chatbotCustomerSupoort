@@ -2,8 +2,19 @@ import os
 import sys
 from modules import *
 
+
 load_dotenv()
 api_key = os.getenv("API_KEY")
+connection_string = os.getenv('DB_CONNECTION_STRING')
+
+
+# Use the connection string in your database connection logic
+conn = pyodbc.connect(connection_string)
+cursor = conn.cursor()
+cursor.execute("SELECT * FROM my_table")
+rows = cursor.fetchall()
+for row in rows:
+    print(row)
 
 # Enable to save to disk & reuse the model (for repeated queries on the same data)
 PERSIST = False

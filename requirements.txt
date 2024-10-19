@@ -2,6 +2,7 @@ fastapi
 pydantic
 uvicorn
 python-dotenv
+pyodbc
 langchain
 langchain_openai
 langchain_community
